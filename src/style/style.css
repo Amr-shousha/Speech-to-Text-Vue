@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "ExpoArabic";
+  src: url(../Ubuntu/Ubuntu-Light.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "ExpoArabic";
+  src: url(../Ubuntu/Ubuntu-Medium.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "ExpoArabic";
+  src: url(../Ubuntu/Ubuntu-Bold.ttf);
+  font-weight: 900;
+}
+* {
+  font-family: "ExpoArabic";
+}
+body {
+  background: rgb(0, 119, 159);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 119, 159, 0.7805716036414566) 8%,
+    rgba(72, 241, 26, 0.7581626400560224) 45%,
+    rgba(28, 255, 182, 1) 100%
+  );
+}
