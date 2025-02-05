@@ -130,18 +130,6 @@ const downloadPDF = () => {
   position: relative;
   overflow: hidden;
 }
-/* .commonClass::after {
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 0;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  background: #5b5a5a;
-  transition: all 0.75s;
-
-} */
 
 .clicked {
   background-color: rgb(255, 46, 46);
