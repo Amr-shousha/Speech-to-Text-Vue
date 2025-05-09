@@ -86,6 +86,7 @@ const downloadPDF = () => {
   <div class="app d-flex flex-column align-items-center">
     <h1 class="animate__animated animate__fadeInUp">Speech to Text</h1>
     <h2>Take Notes with Your Voice</h2>
+    <h3>In Eglish</h3>
     <button
       :class="['commonClass animate__animated animate__flash', buttonClass]"
       @click="toggleButton"
